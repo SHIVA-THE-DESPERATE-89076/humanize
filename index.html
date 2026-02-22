@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>AI Text Humanizer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>AI Text Humanizer</h1>
+
+    <div class="counter">
+      Words: <span id="wordCount">0</span> / 3000
+    </div>
+
+    <textarea id="inputText" placeholder="Paste your text here..." maxlength="20000"></textarea>
+
+    <button id="humanizeBtn">Humanize</button>
+
+    <textarea id="outputText" placeholder="Humanized text will appear here..." readonly></textarea>
+
+    <div class="buttons">
+      <button id="copyBtn">Copy Humanized Text</button>
+      <button id="clearBtn">Clear</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
